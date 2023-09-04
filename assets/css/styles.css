@@ -65,22 +65,22 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color: #ebf5f1;
+  border-color: #ebf5f1;
 }
 .navbar-default .navbar-nav > li > a {
   color: #454545;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color:  #576e68;
+  background-color: #ebf5f1;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color:  #750b39;
+  background-color: #ebf5f1;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
   color: #454545;
@@ -567,8 +567,8 @@ img {
 .more-link {
   font-family: Georgia, serif;
   font-style: italic;
-  font-weight: bold;
   color: #666666;
+  font-weight: bold;
   text-decoration: none;
 }
 .meta-nav:hover,
