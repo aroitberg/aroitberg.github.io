@@ -796,3 +796,11 @@ footer.entry-meta .meta-in {
     max-width: 1080px;
   }
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* center logos horizontally */
+    flex-wrap: wrap; /* wrap logos if they don't fit in one line */
+    gap: 80px; /* space between logos */
+    padding: 20px 0; /* padding at the top and bottom */
+}
