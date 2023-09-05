@@ -44,30 +44,31 @@
 		</h1>
 	</div>
 	<hr>
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
 
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			</div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                <span class="sr-only">Toggle navigation</span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+            </button>
+        </div>
 
-			<div class="navbar-collapse collapse">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="publications.html"><b>Publications</b></a></li>
+                <li><a href="teaching.html"><b>Teaching and Theses</b></a></li>
+                <!-- <li><a href="awards_projects.html"><b>Awards and Projects</b></a></li> -->
+                <li class="active"><a href="group.html"><b>Group</b></a></li>
+                <li><a href="applications.html"><b>Applications</b></a></li>
+            </ul>
+        </div>
 
-<ul class="nav navbar-nav">
-    <li class="nav-item "><a href="index.html"><b>Home</b></a></li>
-    <li class="nav-item"><a href="publications.html"><b>Publications</b></a></li>
-    <li class="nav-item"><a href="teaching.html"><b>Teaching and Theses</b></a></li>
-    <!--<li class="nav-item"><a href="awards_projects.html"><b>Awards and Projects</b></a></li>-->
-    <li class="nav-item active"><a href="group.html"><b>Group</b></a></li>
-    <li class="nav-item"><a href="applications.html"><b>Applications</b></a></li>
-</ul>
-
-
-
-			</div><!--/.nav-collapse -->
-				<hr>
-		</div>
-	</nav>
+    </div>
+</nav>
 </header>
 
 <main id="main">
@@ -128,5 +129,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/template.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.navbar-toggle').collapse();
+    });
+</script>
 </body>
 </html>
